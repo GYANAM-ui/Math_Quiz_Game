@@ -30,10 +30,6 @@ label
 {
 	font-size: 20px;
 }
-input
-{
-    border-radius: 9px;
-}
 input:hover{
     height: 50px;
     background-color: lightseagreen;
