@@ -1,0 +1,52 @@
+#body_color
+{
+    background-image: url("https://images.unsplash.com/photo-1597589827703-f4b68eafa0ce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=665&q=80");
+    height: 950px;
+}
+
+	.login_div1 , .login_div2
+	{
+		background:blue;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		font-size: 20px;
+        font-family: 700px;
+        color: black;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+label
+{
+	font-size: 20px;
+
+}
+#button_text
+{
+	font-size: 20px;
+}
+input
+{
+    border-radius: 9px;
+    width: 600px;
+}
+input:hover{
+    height: 50px;
+    background-color: lightseagreen;
+}
+.button {
+    border-color: #2196F3;
+    color: dodgerblue
+  }
+  
+  .button:hover {
+    background: blue;
+    color: white;
+    height: 50px;
+
+  }
