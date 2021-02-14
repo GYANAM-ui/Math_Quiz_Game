@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz Playground!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+<h4 id="player1_name"></h4> <span id="player1_score"></span>
+<br>
+<h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">The Math Quiz Game!</h2>
+		<h3 id="player_question"></h3>
+		<h3 id="player_answer"></h3>
+		<div id="output" class="col-lg-6"> </div>
+		<br>
+		<br>
+		<h4>Number 1</h4>
+		<input type="text" id="number1" class="form-control" placeholder="Number 1">
+		<br>
+		<h4>Number 1</h4>
+		<input type="text" id="number2" class="form-control" placeholder="Number 2">
+		<br>
+		<button onclick="send()" id="hide" class="btn btn-success" style="width: 30%;">Send</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="button" id="btn" class="btn btn-warning" onclick="clickAlert()"><i class="fa fa-info"></i> To Know About Math</button>
+	</center>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="div-to-left">
+        <br>
+        <br>
+<h4>THIS GAME MADE BY: GYANAM GOGOI<br>YOU WANT TO CHANGE SOMETHING YOU CAN CONTACT WITH ME VIA E-MAIL</h4><span style="width: 30%;height: 50px;"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:ggyanam869@gmail.com?Subject=I wan to change something">my@neptune.com</a></span>
+<br>
+<br>
+    </section>
+
+<script src="game_page.js"></script>
+</body>
+</html>
