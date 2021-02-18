@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FeedBack Site</title>
+        <link rel="stylesheet" href="feed.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="gmailto:ggyanam869@gmail.com?subject=Neptune Feedback" method="post" enctype="text/plain">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="E-Mail">E-Mail Id</label>
+              <input type="email" id="lname" name="email" placeholder="Your E-Mail Id..">
+
+              <label for="Password">Password</label>
+              <input type="password" id="lname" name="password" placeholder="Your Password..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+              </select>
+          
+              <label for="Comment">Comment</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" onclick="send()" value="Submit">
+          
+            </form>
+          </div>
+          <button type="reset" onclick="back()">Back To Game</button>
+        <script src="feed.js"></script>
+    </body>
+</html>
